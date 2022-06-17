@@ -1,0 +1,67 @@
+/* Start Gobal Rules */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #000;
+}
+
+/* End Gobal Rules */
+
+
+/* Start Header */
+header{
+    margin-bottom: 10px;
+}
+.bg-header {
+    background-color: cornflowerblue;
+}
+
+.bg-header .navbar-nav .nav-link {
+    color: #000;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.bg-header .navbar-nav .nav-link:hover {
+    color: yellow;
+}
+
+
+/* End Header */
+
+
+
+
+/* Start container1 */
+.card{
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.card-small{
+    margin: 20px 0px;
+    font-weight: 600;
+    min-height: 240px;
+}
+.card-small:hover{
+    transform: scale(1.1);
+}
+/* End container1 */
+form{
+    box-shadow: 1px 1px 7px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+
+/* start mylist.html */
+section.container{
+    min-height: 100vh;
+}
+/* End mylist.html */
